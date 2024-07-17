@@ -102,6 +102,11 @@ function RootLayoutNav() {
         />
 
         <Stack.Screen
+          name="register-second-step"
+          options={{ headerShown: false }}
+        />
+
+        <Stack.Screen
           name="quiz"
           options={{
             headerShown: false,
