@@ -1,0 +1,38 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    appId: ${APP_ID}
+    clearState: true
+
+- runScript: ../js/Signup.js
+- tapOn: ${output.signup.tapOnEnglish}
+- tapOn: ${output.signup.tapOnSelect}
+- tapOn: ${output.signup.tapOnGetStarted}
+- assertVisible: ${output.signup.enterPhoneNumberText}
+- runScript:
+    when:
+      visible: ${output.signup.enterPhoneNumberText}
+    file: ../js/DateTimeStamp.js
+- tapOn: ${output.signup.enterPhoneNumberText}
+- inputText: ${output.uniquePhoneNumber}
+- tapOn:
+    above: ${output.signup.nextText}
+- assertVisible: ${output.signup.enterCode}
+- inputText: ${output.signup.otpFirstDigit}
+- inputText: ${output.signup.otpSecondDigit}
+- inputText: ${output.signup.otpThirdDigit}
+- inputText: ${output.signup.otpFourthDigit}
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.fullName}
+- inputRandomPersonName
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.email}
+- inputRandomEmail
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.selectDistrict}
+- tapOn: ${output.signup.selectColombo}
+- tapOn: ${output.signup.confirm}
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.skipForNow}
+- assertVisible: ${output.signup.welcomeText}
+- assertVisible: ${output.signup.continueBtn}

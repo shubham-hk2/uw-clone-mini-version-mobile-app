@@ -1,0 +1,119 @@
+{
+  "cli": {
+    "version": ">= 0.57.0"
+  },
+  "build": {
+    "main": {
+      "channel": "main",
+      "distribution": "store",
+      "pnpm": "8.15.4",
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "app-bundle",
+        "image": "latest",
+        "gradleCommand": "bundleRelease",
+        "resourceClass": "medium"
+      },
+      "env": {
+        "EXPO_NO_DOTENV": "1",
+        "APP_ENV": "main",
+        "FLIPPER_DISABLE": "1",
+        "GOOGLE_SERVICES_JSON": "true"
+      },
+      "prebuildCommand": "expo prebuild --skip-dependency-update react",
+      "cache": {
+        "key": "eas-1"
+      },
+      "developmentClient": false
+    },
+    "staging": {
+      "channel": "staging",
+      "distribution": "internal",
+      "pnpm": "8.15.4",
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "env": {
+        "APP_ENV": "staging",
+        "EXPO_NO_DOTENV": "1",
+        "FLIPPER_DISABLE": "1",
+        "GOOGLE_SERVICES_JSON": "true"
+      },
+      "prebuildCommand": "expo prebuild --skip-dependency-update react",
+      "cache": {
+        "key": "eas-1"
+      },
+      "extends": "development"
+    },
+    "development": {
+      "distribution": "store",
+      "pnpm": "8.15.4",
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "image": "latest",
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_ENV": "development",
+        "EXPO_NO_DOTENV": "1",
+        "GOOGLE_SERVICES_JSON": "true"
+      },
+      "prebuildCommand": "expo prebuild --skip-dependency-update react",
+      "cache": {
+        "key": "eas-1"
+      }
+    },
+    "simulator": {
+      "ios": {
+        "simulator": true,
+        "image": "latest"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "env": {
+        "APP_ENV": "development",
+        "EXPO_NO_DOTENV": "1",
+        "GOOGLE_SERVICES_JSON": "true"
+      },
+      "pnpm": "8.15.4",
+      "prebuildCommand": "expo prebuild --skip-dependency-update react",
+      "cache": {
+        "key": "eas-1"
+      }
+    },
+    "test": {
+      "channel": "main",
+      "distribution": "store",
+      "pnpm": "8.15.4",
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "env": {
+        "EXPO_NO_DOTENV": "1",
+        "APP_ENV": "staging",
+        "FLIPPER_DISABLE": "1",
+        "GOOGLE_SERVICES_JSON": "true"
+      },
+      "prebuildCommand": "expo prebuild --skip-dependency-update react",
+      "cache": {
+        "key": "eas-1"
+      }
+    }
+  },
+  "submit": {
+    "main": {}
+  }
+}

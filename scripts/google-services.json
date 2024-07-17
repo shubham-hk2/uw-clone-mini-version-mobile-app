@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "816179881247",
+    "project_id": "atlas-world---quiz-app-7f8c6",
+    "storage_bucket": "atlas-world---quiz-app-7f8c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816179881247:android:fdbc95478b187d4583fc2a",
+        "android_client_info": {
+          "package_name": "com.atlas.quizapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK2xiHZRdt_eB-xphd_jVc96QFlJ40qog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816179881247:android:c0d28c0c18db5dd483fc2a",
+        "android_client_info": {
+          "package_name": "com.obytes.development"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK2xiHZRdt_eB-xphd_jVc96QFlJ40qog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816179881247:android:e62297a2dbaa5e8983fc2a",
+        "android_client_info": {
+          "package_name": "com.obytes.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK2xiHZRdt_eB-xphd_jVc96QFlJ40qog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

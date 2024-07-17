@@ -1,0 +1,59 @@
+{
+  "language": {
+    "selectLanguage": "SI-Select Language"
+  },
+  "onboarding": {
+    "smartAdvice": "SI-Smart Advice",
+    "makeProgress": "SI- Make progress with study advice based on your performance.",
+    "personalCoaching": "SI-Personal Coaching",
+    "receiveCoaching": "SI- Receiving personalised coaching based on your preferred learning style.",
+    "studyFlexibility": "SI-Study Flexibility",
+    "practiceAnyTime": "SI- Practice quiz questions whenever you want, wherever you want.",
+    "getStarted": "SI-Get Started",
+    "ialreadyhaveanaccount": "SI-I already have an account"
+  },
+  "registerFirst": {
+    "enterPhone": "SI-Enter Your Phone Number",
+    "phoneText": "SI-By entering your number you can log in or create an account",
+    "nextButton": "SI-Next",
+    "change": "SI-Change"
+  },
+  "registerSecond": {
+    "nameTitle": "SI-What is your name?",
+    "nextButton": "SI-Next"
+  },
+  "registerOtp": {
+    "enterOtp": "SI-Enter the 4-digit code",
+    "otpText": "SI-Sent to you at",
+    "nextButton": "SI-Next",
+    "resendButton": "SI-Resend Code"
+  },
+  "registerThird": {
+    "emailTitle": "SI-What is your email address,",
+    "nextButton": "SI-Next"
+  },
+  "registerFourth": {
+    "districtTitle": "SI-Please select your district",
+    "nextButton": "SI-Next",
+    "confirmButton": "SI-Confirm",
+    "bottomSheetTitle": "SI-Select your district",
+    "placeholder": "SI-Choose district"
+  },
+  "registerFifth": {
+    "title": "SI-Would you like to add a profile picture?",
+    "addButton": "SI-Add Profile Picture",
+    "skipButton": "SI-Skip for now"
+  },
+  "registerLast": {
+    "welcome": "SI-Welcome",
+    "welcomeText": "SI-Your profile has been created",
+    "continue": "SI-Continue"
+  },
+  "vak": {
+    "landing-text": "SI-Let’s find out your learning style"
+  },
+  "home": {
+    "math": "SI-Mathematics",
+    "env": "SI-Environmental"
+  }
+}

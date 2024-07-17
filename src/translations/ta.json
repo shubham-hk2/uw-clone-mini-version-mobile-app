@@ -1,0 +1,58 @@
+{
+  "language": {
+    "selectLanguage": "TA-Select Language"
+  },
+  "onboarding": {
+    "smartAdvice": "TA-Smart Advice",
+    "makeProgress": "TA- Make progress with study advice based on your performance.",
+    "personalCoaching": "TA-Personal Coaching",
+    "receiveCoaching": "TA- Receiving personalised coaching based on your preferred learning style.",
+    "studyFlexibility": "TA-Study Flexibility",
+    "practiceAnyTime": "TA- Practice quiz questions whenever you want, wherever you want.",
+    "getStarted": "TA-Get Started",
+    "ialreadyhaveanaccount": "TA-I already have an account"
+  },
+  "registerFirst": {
+    "enterPhone": "TA-Enter Your Phone Number",
+    "phoneText": "TA-By entering your number you can log in or create an account",
+    "nextButton": "TA-Next",
+    "change": "TA-Change"
+  },
+  "registerOtp": {
+    "enterOtp": "TA-Enter the 4-digit code",
+    "otpText": "TA-Sent to you at",
+    "nextButton": "TA-Next",
+    "resendButton": "TA-Resend Code"
+  },
+  "registerSecond": {
+    "nameTitle": "TA-What is your name?",
+    "nextButton": "TA-Next"
+  },
+  "registerThird": {
+    "emailTitle": "TA-What is your email address,",
+    "nextButton": "TA-Next"
+  },
+  "registerFourth": {
+    "districtTitle": "TA-Please select your district",
+    "nextButton": "TA-Next",
+    "confirmButton": "TA-Confirm",
+    "bottomSheetTitle": "TA-Select your district"
+  },
+  "registerFifth": {
+    "title": "TA-Would you like to add a profile picture?",
+    "addButton": "TA-Add Profile Picture",
+    "skipButton": "TA-Skip for now"
+  },
+  "registerLast": {
+    "welcome": "TA-Welcome",
+    "welcomeText": "TA-Your profile has been created",
+    "continue": "TA-Continue"
+  },
+  "vak": {
+    "landing-text": "TA-Let’s find out your learning style"
+  },
+  "home": {
+    "math": "TA-Mathematics",
+    "env": "TA-Environmental"
+  }
+}

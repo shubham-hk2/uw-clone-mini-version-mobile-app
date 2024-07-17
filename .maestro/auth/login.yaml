@@ -1,0 +1,82 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    appId: ${APP_ID}
+    clearState: true
+- runScript: ../js/Signup.js
+- tapOn: ${output.signup.tapOnEnglish}
+- tapOn: ${output.signup.tapOnSelect}
+- tapOn: ${output.signup.tapOnGetStarted}
+- assertVisible: ${output.signup.enterPhoneNumberText}
+- runScript:
+    when:
+      visible: ${output.signup.enterPhoneNumberText}
+    file: ../js/DateTimeStamp.js
+- tapOn: ${output.signup.enterPhoneNumberText}
+- inputText: ${output.uniquePhoneNumber}
+- tapOn:
+    above: ${output.signup.nextText}
+- assertVisible: ${output.signup.enterCode}
+- inputText: ${output.signup.otpFirstDigit}
+- inputText: ${output.signup.otpSecondDigit}
+- inputText: ${output.signup.otpThirdDigit}
+- inputText: ${output.signup.otpFourthDigit}
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.fullName}
+- inputRandomPersonName
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.email}
+- inputRandomEmail
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.selectDistrict}
+- tapOn: ${output.signup.selectColombo}
+- tapOn: ${output.signup.confirm}
+- tapOn: ${output.signup.nextBtnClick}
+- tapOn: ${output.signup.skipForNow}
+- assertVisible: ${output.signup.welcomeText}
+- assertVisible: ${output.signup.continueBtn}
+
+- runScript: ../js/login.js
+- tapOn: ${output.login.continueBtn}
+- tapOn: ${output.login.tapOnGetStarted}
+- tapOn: ${output.login.answer1}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer2}
+- tapOn: ${output.login.answer2}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer3}
+- tapOn: ${output.login.answer3}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer4}
+- tapOn: ${output.login.answer4}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer5}
+- tapOn: ${output.login.answer5}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer6}
+- tapOn: ${output.login.answer6}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer7}
+- tapOn: ${output.login.answer7}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer8}
+- tapOn: ${output.login.answer8}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer9}
+- tapOn: ${output.login.answer9}
+- tapOn: ${output.login.nextBtnClick}
+- assertVisible: ${output.login.answer10}
+- tapOn: ${output.login.answer10}
+- tapOn: ${output.login.submit}
+
+
+
+
+
+
+
+
+
+
+
+

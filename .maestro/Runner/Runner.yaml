@@ -1,0 +1,4 @@
+appId: ${APP_ID}
+---
+- runFlow: ../auth/signup.yaml
+- runFlow: ../auth/login.yaml

@@ -1,0 +1,59 @@
+{
+  "language": {
+    "selectLanguage": "Select Language"
+  },
+  "onboarding": {
+    "smartAdvice": "Smart Advice",
+    "makeProgress": " Make progress with study advice based on your performance.",
+    "personalCoaching": "Personal Coaching",
+    "receiveCoaching": " Receiving personalised coaching based on your preferred learning style.",
+    "studyFlexibility": "Study Flexibility",
+    "practiceAnyTime": " Practice quiz questions whenever you want, wherever you want.",
+    "getStarted": "Get Started",
+    "ialreadyhaveanaccount": "I already have an account"
+  },
+  "registerFirst": {
+    "enterPhone": "Enter Your Phone Number",
+    "phoneText": "By entering your number you can log in or create an account",
+    "nextButton": "Next",
+    "change": "Change"
+  },
+  "registerSecond": {
+    "nameTitle": "What is your name?",
+    "nextButton": "Next"
+  },
+  "registerOtp": {
+    "enterOtp": "Enter the 4-digit code",
+    "otpText": "Sent to you at",
+    "nextButton": "Next",
+    "resendButton": "Resend Code"
+  },
+  "registerThird": {
+    "emailTitle": "What is your email address,",
+    "nextButton": "Next"
+  },
+  "registerFourth": {
+    "districtTitle": "Please select your district",
+    "nextButton": "Next",
+    "confirmButton": "Confirm",
+    "placeholder": "Choose district",
+    "bottomSheetTitle": "Select your district"
+  },
+  "registerFifth": {
+    "title": "Would you like to add a profile picture?",
+    "addButton": "Add Profile Picture",
+    "skipButton": "Skip for now"
+  },
+  "registerLast": {
+    "welcome": "Welcome",
+    "welcomeText": "Your profile has been created",
+    "continue": "Continue"
+  },
+  "vak": {
+    "landing-text": "Let’s find out your learning style"
+  },
+  "home": {
+    "math": "Mathematics",
+    "env": "Environmental"
+  }
+}
